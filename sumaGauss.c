@@ -9,4 +9,6 @@ int main() {
         suma = suma + i;
         i = i + 1;
     }
+      printf("La suma de los %d primeros números es %d\n", n, suma);
+    return 0;
 }
